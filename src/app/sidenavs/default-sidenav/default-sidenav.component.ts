@@ -1,12 +1,18 @@
 import { Component } from '@angular/core';
 
 @Component({
-  template: ` <h1>Sidenav</h1>
+  template: ` <h1>GMS</h1>
 
     <app-sidenav-link routerLink="/home">
       <mat-icon icon>home</mat-icon>
 
       Home
+    </app-sidenav-link>
+
+    <app-sidenav-link routerLink="/vehicles">
+      <mat-icon icon>directions_car</mat-icon>
+
+      Vehicles
     </app-sidenav-link>
 
     <app-sidenav-link routerLink="/profile">
